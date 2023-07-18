@@ -369,12 +369,10 @@ form input[type='radio']:checked{
   .opening .luar .konten-acara .acara {
     width: 100%;
   }
-  .konten-galeri {
+  .galeri .konten-galeri {
     flex-direction: column;
   }
-  .konten-galeri .isi-galeri {
-    display: flex;
-    flex-direction: column;
+  .galeri .konten-galeri .isi-galeri {
     width: 100%;
   }
 }
