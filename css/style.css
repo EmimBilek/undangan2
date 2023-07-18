@@ -369,6 +369,14 @@ form input[type='radio']:checked{
   .opening .luar .konten-acara .acara {
     width: 100%;
   }
+  .konten-galeri {
+    flex-direction: column;
+  }
+  .konten-galeri .isi-galeri {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
 }
 
 @media (max-width: 475px) {
